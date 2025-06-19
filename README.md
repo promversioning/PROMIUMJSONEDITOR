@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-  <img src="./public/assets/192.png" height="50" alt="Logo">
+  <img src="https://promiumai.com/wp-content/uploads/2023/06/Logo-PROMIUM-ovale-trasparente.png" height="50" alt="Logo">
   <h1 align="center">PROMIUM JSON EDITOR</h1>
   <p align="center">
     Fork di JSON Crack, editor JSON avanzato per PROMIUM AI.
