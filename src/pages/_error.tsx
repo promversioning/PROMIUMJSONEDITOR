@@ -20,9 +20,7 @@ const Custom500 = () => {
           Our servers could not handle your request. Don&apos;t worry, our development team was
           already notified. Try refreshing the page.
         </Text>
-        <Button size="lg" color="gray" type="button" onClick={() => router.reload()}>
-          Refresh the page
-        </Button>
+        <Button mt={20} onClick={() => router.push("/")}>Go Home</Button>
       </Stack>
     </Layout>
   );

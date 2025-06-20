@@ -1,7 +1,7 @@
 services:
-  jsoncrack:
-    image: jsoncrack
-    container_name: jsoncrack
+  promiumjsoneditor:
+    image: promiumjsoneditor
+    container_name: promiumjsoneditor
     build: 
       context: .
       dockerfile: Dockerfile
