@@ -37,6 +37,6 @@ EXPOSE 8080
 
 # Add a health check to ensure the NGINX server is running correctly.
 HEALTHCHECK --interval=10s --timeout=5s --start-period=5s \
-  CMD wget --quiet --tries=1 --spider http://localhost:8080/ || exit 1
+  CMD wget --quiet --tries=1 --spider http://localhost:8888/ || exit 1
 
 # The base image (nginxinc/nginx-unprivileged) already contains the appropriate CMD.
