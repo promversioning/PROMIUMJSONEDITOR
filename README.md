@@ -5,7 +5,7 @@
   <p align="center">
     Fork di JSON Crack, editor JSON avanzato per PROMIUM AI.
     <br />
-    <a href="https://promium.ai"><strong>Scopri PROMIUM AI »</strong></a>
+    <a href="https://promiumai.com"><strong>Scopri PROMIUM AI »</strong></a>
   </p>
 </p>
 
@@ -82,6 +82,24 @@ PROMIUM JSON EDITOR nasce come fork di [JSON Crack](https://jsoncrack.com/) di A
  docker compose up
 # L'app sarà disponibile su http://localhost:8888
 ```
+
+## Esecuzione rapida tramite Docker
+
+Per avviare rapidamente il container, puoi usare il comando seguente (la porta 3000 del tuo computer verrà mappata sulla porta 8080 del container):
+
+```sh
+docker run -p 3000:8080 promiumjsoneditor
+```
+
+L'app sarà visibile su:
+[http://localhost:3000](http://localhost:3000)
+
+---
+
+## Novità e miglioramenti recenti
+
+- Ora l'editor è visibile direttamente dalla root del progetto (`/`), senza più errori 404 o redirect.
+- L'immagine Docker è stata ottimizzata: ora pesa circa la metà rispetto all'originale ed è molto più sicura.
 
 ## Licenza
 
